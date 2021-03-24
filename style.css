@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+body{
+    background: linear-gradient(to top,#2a35b0,#2a98b0) no-repeat;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Comfortaa', cursive;
+}
+.container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.place{
+    display: flex;
+    
+}
+.container div{
+    width: 100%;
+    margin-top:20px;
+    display:flex;
+    flex-direction: row;
+}
+.animate,.temperature,.city,.descr{
+    align-items: center;
+    justify-content: center;
+}
